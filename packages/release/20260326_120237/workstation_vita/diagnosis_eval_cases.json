@@ -1,0 +1,40 @@
+[
+  {
+    "name": "综合监控黑屏诊断",
+    "query": "陆慕站综合监控工作站黑屏了怎么办",
+    "expected_intent": "diagnosis",
+    "expected_device": "综合监控工作站",
+    "expected_fault": "黑屏",
+    "min_station_cases": 1,
+    "max_direct_cases": 0,
+    "forbidden_terms": ["苏e行", "锁具", "AFC设备"]
+  },
+  {
+    "name": "TVM5 重启无效诊断",
+    "query": "胥江路站TVM5频繁死机重启无效怎么处理",
+    "expected_intent": "diagnosis",
+    "expected_device": "TVM5",
+    "expected_fault": "重启无效",
+    "min_direct_cases": 1,
+    "min_station_cases": 1,
+    "required_terms": ["TVM5"]
+  },
+  {
+    "name": "扶梯停止诊断",
+    "query": "石路站扶梯故障停止怎么处理",
+    "expected_intent": "diagnosis",
+    "expected_specialty": "电扶梯",
+    "expected_fault": "停止",
+    "min_direct_cases": 1,
+    "min_station_cases": 1,
+    "required_terms": ["扶梯"]
+  },
+  {
+    "name": "综合监控历史查询",
+    "query": "陆慕站综合监控工作站历史故障有哪些",
+    "expected_intent": "diagnosis",
+    "expected_query_type": "history",
+    "expected_device": "综合监控工作站",
+    "min_station_cases": 1
+  }
+]

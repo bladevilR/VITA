@@ -1,0 +1,153 @@
+[
+  {
+    "id": "P13",
+    "query": "胥江路站TVM5重启后还是卡死怎么处理",
+    "intent": "diagnosis",
+    "execution_mode": "parallel_3",
+    "planner_source": "heuristic_precise",
+    "total_seconds": 34.198,
+    "events": [
+      [
+        "embedding",
+        0.066,
+        "TVM5 重启无效 卡死 AFC"
+      ],
+      [
+        "embedding",
+        0.081,
+        "TVM5 死机 频繁死机 无法启动 白屏 AFC"
+      ],
+      [
+        "embedding",
+        0.058,
+        "AFC"
+      ],
+      [
+        "support_batch",
+        0.031,
+        6
+      ],
+      [
+        "llm_other",
+        21.322,
+        {
+          "max_completion_tokens": 4096,
+          "enable_thinking": false
+        }
+      ]
+    ]
+  },
+  {
+    "id": "P24",
+    "query": "石路站扶梯停止后先查什么",
+    "intent": "diagnosis",
+    "execution_mode": "parallel_3",
+    "planner_source": "heuristic_precise",
+    "total_seconds": 30.586,
+    "events": [
+      [
+        "embedding",
+        0.071,
+        "扶梯 停止 电扶梯"
+      ],
+      [
+        "embedding",
+        0.056,
+        "扶梯 故障停止 失电停止 紧急停止 电扶梯"
+      ],
+      [
+        "embedding",
+        0.078,
+        "电扶梯"
+      ],
+      [
+        "support_batch",
+        0.01,
+        6
+      ],
+      [
+        "llm_other",
+        18.345,
+        {
+          "max_completion_tokens": 4096,
+          "enable_thinking": false
+        }
+      ]
+    ]
+  },
+  {
+    "id": "P08",
+    "query": "陆慕站综合监控工作站历史工单帮我整理",
+    "intent": "diagnosis",
+    "execution_mode": "parallel_3",
+    "planner_source": "heuristic_precise",
+    "total_seconds": 10.504,
+    "events": [
+      [
+        "support_batch",
+        0.01,
+        3
+      ],
+      [
+        "llm_other",
+        4.494,
+        {
+          "max_completion_tokens": 4096,
+          "enable_thinking": false
+        }
+      ]
+    ]
+  },
+  {
+    "id": "P35",
+    "query": "2号线近7天哪个站故障最多",
+    "intent": "statistics",
+    "execution_mode": null,
+    "planner_source": null,
+    "total_seconds": 0.347,
+    "events": [
+      [
+        "statistics_api",
+        0.346,
+        {
+          "query_type": "comparison",
+          "entities": {
+            "line_num": "2",
+            "station_name": null,
+            "specialty": null,
+            "device": null,
+            "fault_phenomenon": null,
+            "time_range": {
+              "start_date": "2026-03-20",
+              "end_date": "2026-03-27"
+            },
+            "compare_dimension": "station"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "id": "P46",
+    "query": "胥江路站TVM5卡死一般联系谁",
+    "intent": "responsibility",
+    "execution_mode": null,
+    "planner_source": null,
+    "total_seconds": 0.516,
+    "events": [
+      [
+        "responsibility_api",
+        0.511,
+        {
+          "line_num": null,
+          "station_name": "胥江路站",
+          "specialty": "AFC",
+          "device": "TVM5",
+          "fault_phenomenon": null,
+          "time_range": null,
+          "compare_dimension": null
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+﻿VITA split deployment package
+
+generated_at=20260326_120237
+
+server_folder=server_maximo
+server_example_path=E:\server_maximo
+server_start=start_server.bat
+
+workstation_folder=workstation_vita
+workstation_example_path=E:\vita\workstation_vita
+workstation_ui_start=start_workstation_ui.bat
+workstation_dingtalk_start=start_dingtalk_bridge.bat
+workstation_all_start=start_workstation_all.bat
+
+server_port=3000
+ui_port=8501

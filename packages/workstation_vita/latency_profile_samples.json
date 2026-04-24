@@ -1,0 +1,322 @@
+[
+  {
+    "id": "P13",
+    "query": "胥江路站TVM5重启后还是卡死怎么处理",
+    "intent": "diagnosis",
+    "execution_mode": "sequential",
+    "planner_source": "llm_refined",
+    "total_seconds": 60.894,
+    "events": [
+      [
+        "llm_other",
+        3.902
+      ],
+      [
+        "embedding",
+        0.073,
+        "TVM5 重启无效 卡死 AFC"
+      ],
+      [
+        "embedding",
+        0.069,
+        "TVM5 死机 频繁死机 无法启动 白屏 AFC"
+      ],
+      [
+        "embedding",
+        0.058,
+        "AFC"
+      ],
+      [
+        "support_batch",
+        0.029,
+        6
+      ],
+      [
+        "support",
+        6.584,
+        {
+          "station_name": "胥江路站",
+          "device": "TVM5",
+          "fault_phenomenon": "重启无效 卡死",
+          "limit": 60,
+          "vector_count": 0
+        }
+      ],
+      [
+        "support",
+        6.567,
+        {
+          "station_name": "胥江路站",
+          "device": "TVM5",
+          "fault_phenomenon": null,
+          "limit": 60,
+          "vector_count": 0
+        }
+      ],
+      [
+        "support",
+        6.395,
+        {
+          "station_name": "胥江路站",
+          "device": null,
+          "fault_phenomenon": null,
+          "limit": 40,
+          "vector_count": 0
+        }
+      ],
+      [
+        "support",
+        4.861,
+        {
+          "station_name": null,
+          "device": "TVM5",
+          "fault_phenomenon": "重启无效 卡死",
+          "limit": 40,
+          "vector_count": 50
+        }
+      ],
+      [
+        "support",
+        4.857,
+        {
+          "station_name": null,
+          "device": "TVM5",
+          "fault_phenomenon": "死机 频繁死机 无法启动 白屏",
+          "limit": 40,
+          "vector_count": 50
+        }
+      ],
+      [
+        "support",
+        4.686,
+        {
+          "station_name": null,
+          "device": null,
+          "fault_phenomenon": null,
+          "limit": 40,
+          "vector_count": 50
+        }
+      ],
+      [
+        "llm_other",
+        21.943
+      ]
+    ]
+  },
+  {
+    "id": "P24",
+    "query": "石路站扶梯停止后先查什么",
+    "intent": "diagnosis",
+    "execution_mode": "sequential",
+    "planner_source": "llm_refined",
+    "total_seconds": 58.741,
+    "events": [
+      [
+        "llm_other",
+        2.952
+      ],
+      [
+        "llm_other",
+        3.819
+      ],
+      [
+        "embedding",
+        0.087,
+        "扶梯 停止 电扶梯"
+      ],
+      [
+        "embedding",
+        0.062,
+        "扶梯 故障停止 失电停止 紧急停止 电扶梯"
+      ],
+      [
+        "embedding",
+        0.057,
+        "电扶梯"
+      ],
+      [
+        "support_batch",
+        0.021,
+        6
+      ],
+      [
+        "support",
+        6.605,
+        {
+          "station_name": "石路站",
+          "device": "扶梯",
+          "fault_phenomenon": "停止",
+          "limit": 60,
+          "vector_count": 0
+        }
+      ],
+      [
+        "support",
+        6.434,
+        {
+          "station_name": "石路站",
+          "device": "扶梯",
+          "fault_phenomenon": null,
+          "limit": 60,
+          "vector_count": 0
+        }
+      ],
+      [
+        "support",
+        6.251,
+        {
+          "station_name": "石路站",
+          "device": null,
+          "fault_phenomenon": null,
+          "limit": 40,
+          "vector_count": 0
+        }
+      ],
+      [
+        "support",
+        4.977,
+        {
+          "station_name": null,
+          "device": "扶梯",
+          "fault_phenomenon": "停止",
+          "limit": 40,
+          "vector_count": 50
+        }
+      ],
+      [
+        "support",
+        4.757,
+        {
+          "station_name": null,
+          "device": "扶梯",
+          "fault_phenomenon": "故障停止 失电停止 紧急停止",
+          "limit": 40,
+          "vector_count": 50
+        }
+      ],
+      [
+        "support",
+        4.52,
+        {
+          "station_name": null,
+          "device": null,
+          "fault_phenomenon": null,
+          "limit": 40,
+          "vector_count": 50
+        }
+      ],
+      [
+        "llm_other",
+        17.642
+      ]
+    ]
+  },
+  {
+    "id": "P08",
+    "query": "陆慕站综合监控工作站历史工单帮我整理",
+    "intent": "diagnosis",
+    "execution_mode": "sequential",
+    "planner_source": "llm_refined",
+    "total_seconds": 24.312,
+    "events": [
+      [
+        "llm_other",
+        3.09
+      ],
+      [
+        "support_batch",
+        0.022,
+        3
+      ],
+      [
+        "support",
+        6.04,
+        {
+          "station_name": "陆慕站",
+          "device": "综合监控工作站",
+          "fault_phenomenon": null,
+          "limit": 60,
+          "vector_count": 0
+        }
+      ],
+      [
+        "support",
+        5.953,
+        {
+          "station_name": "陆慕站",
+          "device": null,
+          "fault_phenomenon": null,
+          "limit": 60,
+          "vector_count": 0
+        }
+      ],
+      [
+        "support",
+        4.29,
+        {
+          "station_name": null,
+          "device": "综合监控工作站",
+          "fault_phenomenon": null,
+          "limit": 40,
+          "vector_count": 0
+        }
+      ],
+      [
+        "llm_other",
+        4.848
+      ]
+    ]
+  },
+  {
+    "id": "P35",
+    "query": "2号线近7天哪个站故障最多",
+    "intent": "statistics",
+    "execution_mode": null,
+    "planner_source": null,
+    "total_seconds": 0.333,
+    "events": [
+      [
+        "statistics_api",
+        0.33,
+        {
+          "query_type": "comparison",
+          "entities": {
+            "line_num": "2",
+            "station_name": null,
+            "specialty": null,
+            "device": null,
+            "fault_phenomenon": null,
+            "time_range": {
+              "start_date": "2026-03-20",
+              "end_date": "2026-03-27"
+            },
+            "compare_dimension": "station"
+          }
+        }
+      ]
+    ]
+  },
+  {
+    "id": "P46",
+    "query": "胥江路站TVM5卡死一般联系谁",
+    "intent": "responsibility",
+    "execution_mode": null,
+    "planner_source": null,
+    "total_seconds": 0.493,
+    "events": [
+      [
+        "responsibility_api",
+        0.489,
+        {
+          "line_num": null,
+          "station_name": "胥江路站",
+          "specialty": "AFC",
+          "device": "TVM5",
+          "fault_phenomenon": null,
+          "time_range": null,
+          "compare_dimension": null
+        }
+      ]
+    ]
+  }
+]

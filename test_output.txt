@@ -1,0 +1,135 @@
+2026-03-10 10:27:02.965 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:02.971 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:02.971 WARNING streamlit.runtime.state.session_state_proxy: Session state does not function when running a script without `streamlit run`
+2026-03-10 10:27:02.972 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:03.098 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run real_performance_test.py [ARGUMENTS]
+2026-03-10 10:27:03.098 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:03.098 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:03,111 - VITA - INFO - Ê¹ÓÃOracle ThickÄ£Ê½: D:/instantclient/instantclient_23_9
+2026-03-10 10:27:03.606 Thread 'Thread-1': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:03.606 Thread 'Thread-1': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04,028 - VITA - INFO - ÏµÍ³³õÊ¼»¯Íê³É (0.93s)
+2026-03-10 10:27:04.028 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.028 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.028 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.028 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.028 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.028 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.029 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.030 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04.031 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:04,031 - VITA - INFO - ÕýÔÚÖªÊ¶¿âÖÐ¼ìË÷...
+2026-03-10 10:27:04,031 - VITA - INFO - ÏòÁ¿¼ìË÷²éÑ¯: Éè±¸:ISCS¹¤×÷Õ¾ | ÏÖÏó:None
+2026-03-10 10:27:04,262 - VITA - INFO - ÏòÁ¿¼ìË÷: 50 ¸öºòÑ¡
+2026-03-10 10:27:12,282 - VITA - WARNING - Êý¾Ý¿â TCP Ô¤¼ìÊ§°Ü (htdora-scan.sz-mtr.com:1521/eamprod ¡ú 10.97.4.6): timed out
+2026-03-10 10:27:12,283 - VITA - ERROR - Êý¾Ý¿â²»¿É´ï (htdora-scan.sz-mtr.com:1521/eamprod)£¬¹Ø¼ü´Ê¼ìË÷½«½µ¼¶Îª½öÏòÁ¿Ä£Ê½
+2026-03-10 10:27:12,283 - VITA - ERROR - ²éÑ¯Ê§°Ü: Êý¾Ý¿âÁ¬½Ó³Ø²»¿ÉÓÃ
+2026-03-10 10:27:13,283 - VITA - INFO - Êý¾Ý¿â²éÑ¯ÖØÊÔ 2/2
+2026-03-10 10:27:13,284 - VITA - ERROR - ²éÑ¯Ê§°Ü: Êý¾Ý¿âÁ¬½Ó³Ø²»¿ÉÓÃ
+2026-03-10 10:27:13,284 - VITA - WARNING - ¹Ø¼ü´Ê¼ìË÷Ê§°Ü£¨½«½öÊ¹ÓÃÏòÁ¿¼ìË÷£©: Êý¾Ý¿âÁ¬½Ó³Ø²»¿ÉÓÃ
+2026-03-10 10:27:13,284 - VITA - INFO - ¹Ø¼ü´Ê¼ìË÷: 0 ¸öºòÑ¡
+2026-03-10 10:27:13,284 - VITA - INFO - ¹Ø¼ü´Ê¼ìË÷ÎÞ½á¹û£¬½öÊ¹ÓÃÏòÁ¿¼ìË÷
+2026-03-10 10:27:13.284 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:13.284 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:13.284 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-03-10 10:27:13.284 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+¿ªÊ¼ÕæÊµÐÔÄÜ²âÊÔ
+============================================================
+[DEBUG] Starting system initialization...
+[DEBUG] Current directory: E:\vita
+[DEBUG] INDEX_FILE: kb_zhipu.index
+[DEBUG] ID_MAP_FILE: kb_zhipu_id_map.npy
+[DEBUG] initialize_resources started
+[DEBUG] Initializing Oracle client...
+[DEBUG] Oracle Thick mode: D:/instantclient/instantclient_23_9
+[DEBUG] Checking INDEX_FILE: kb_zhipu.index
+[DEBUG] Loading FAISS index...
+[DEBUG] FAISS index loaded successfully, 461065 vectors
+[DEBUG] Checking ID_MAP_FILE: kb_zhipu_id_map.npy
+[DEBUG] Loading ID map...
+[DEBUG] ID map loaded successfully, shape: (461065,)
+[DEBUG] System initialization completed successfully
+²âÊÔ²éÑ¯: ISCS¹¤×÷Õ¾ºÚÆÁ
+============================================================
+ÊµÌå: {'device': 'ISCS¹¤×÷Õ¾', 'line_num': None, 'station_name': None, 'specialty': None}
+[OK] ¼ìË÷: 0Ìõ, 9.25Ãë
+[OK] Rerank: 0Ìõ, 0.00Ãë
+[SKIP] Êý¾Ý·ÖÎö: ÎÞÊý¾Ý
+============================================================
+ÐÔÄÜ²âÊÔ½á¹û:
+  ¼ìË÷: 9.25Ãë (100.0%)
+  Rerank: 0.00Ãë (0.0%)
+  Êý¾Ý·ÖÎö: 0.00Ãë (0.0%)
+×ÜºÄÊ±: 9.25Ãë
+============================================================
+[SUCCESS] ¶Ëµ½¶Ë²âÊÔÍê³É

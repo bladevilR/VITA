@@ -1,0 +1,9 @@
+*.index filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.pyd filter=lfs diff=lfs merge=lfs -text
+*.map filter=lfs diff=lfs merge=lfs -text
+*.whl filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text

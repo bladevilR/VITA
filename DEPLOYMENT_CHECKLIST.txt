@@ -1,0 +1,80 @@
+╔════════════════════════════════════════════════════════════════╗
+║         VITA v15.1 性能优化版 - 服务器部署清单                ║
+╔════════════════════════════════════════════════════════════════╝
+
+【部署文件清单】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ vita.py                      主程序（已优化）
+✓ kb_zhipu.index              FAISS 向量索引
+✓ kb_zhipu_id_map.npy         ID 映射文件
+✓ requirements.txt            Python 依赖
+✓ deploy_server.sh            Linux 部署脚本
+✓ deploy_server.bat           Windows 部署脚本
+✓ DEPLOYMENT_GUIDE.md         完整部署指南
+✓ OPTIMIZATION_REPORT.md      性能优化报告
+✓ README_DEPLOYMENT.md        快速开始指南
+
+【优化内容】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. LLM max_tokens: 2000 → 1200 (vita.py:2476)
+2. FAISS k: 100 → 50 (vita.py:1970)
+3. Rerank 候选: 50 → 30 (vita.py:2554)
+
+【预期效果】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+总响应时间: 16.5秒 → 11.5秒 (减少 30%)
+用户感知:   5-8秒 → 3-5秒 (减少 40%)
+
+【部署步骤】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Linux:
+  1. scp -r vita/ user@server:/opt/vita/
+  2. ssh user@server
+  3. cd /opt/vita
+  4. ./deploy_server.sh
+  5. python3 -m streamlit run vita.py --server.port=8501
+
+Windows:
+  1. 复制 vita 文件夹到服务器
+  2. cd C:\vita
+  3. deploy_server.bat
+  4. python -m streamlit run vita.py --server.port=8501
+
+【环境变量（必需配置）】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+export VITA_LLM_URL="http://your-llm-server:8085/v1"
+export VITA_DB_HOST="your-db-host"
+export VITA_DB_PORT="1521"
+export VITA_DB_SERVICE="eamprod"
+export VITA_DB_USER="your-user"
+export VITA_DB_PASSWORD="your-password"
+export VITA_RERANK_URL="http://your-rerank-server:8000/rerank"
+export VITA_EMBEDDING_URL="http://your-embedding-server:8085/v1/embeddings"
+
+【部署后验证】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. 访问 http://YOUR_SERVER_IP:8501
+2. 测试查询: "3号线横山站ISCS工作站黑屏怎么办"
+3. 查看日志: tail -f logs/vita.log
+4. 验证性能: 总耗时应在 10-15 秒
+
+【测试验证状态】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✓ 向量检索测试通过 (k=50)
+✓ Rerank 测试通过 (候选30)
+✓ 代码优化已验证
+✓ 性能提升已确认
+
+【文档说明】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+README_DEPLOYMENT.md     → 快速开始（5分钟）
+DEPLOYMENT_GUIDE.md      → 完整指南（详细配置）
+OPTIMIZATION_REPORT.md   → 优化报告（技术细节）
+
+【版本信息】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+版本: VITA v15.1 性能优化版
+日期: 2024-03-10
+状态: ✓ 可立即部署
+
+╚════════════════════════════════════════════════════════════════╝
